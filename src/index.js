@@ -6,6 +6,8 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="max-w-[1380px] mx-auto">
+      <App />
+    </div>
   </React.StrictMode>
 );
