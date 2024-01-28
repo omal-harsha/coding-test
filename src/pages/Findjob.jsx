@@ -1,5 +1,6 @@
 import React from "react";
 import Filter from "../components/Filter";
+import Jobs from "../components/Jobs";
 
 const Findjob = () => {
   return (
@@ -7,11 +8,13 @@ const Findjob = () => {
       <div className="text-2xl font-poppins text-gray-800 font-semibold">
         Recommended jobs
       </div>
-      <div>
-        <div>
+      <div className="flex">
+        <div className="mr-8">
           <Filter />
         </div>
-        <div></div>
+        <div className="mt-7">
+          <Jobs />
+        </div>
       </div>
     </div>
   );
