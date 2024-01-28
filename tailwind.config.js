@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         BGdark: "#141414",
         BGblue: "#2a85ff",
+        BGgray: "#f0f5fa",
       },
     },
     screens: {
