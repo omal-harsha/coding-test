@@ -12,7 +12,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed.
 
 Clone the repository and install the dependencies.
 
-Visit the deployed Job Portal application on Vercel: [Job Portal.](https://coding-test-nu.vercel.app/)
-https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/codetest%2Fscreencapture-localhost-3000-2024-01-29-12_02_09.png?alt=media&token=66493811-92ab-45bd-9605-e3a135f36030
+Visit the deployed Job Portal application on Vercel: [Job Portal](https://coding-test-nu.vercel.app/)
 
-https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/codetest%2FWhatsApp%20Image%202024-01-29%20at%2012.03.54_b8b2ff03.jpg?alt=media&token=5c18c699-249c-4257-ae3d-70c9cd248375
+![screencapture-localhost-3000-2024-01-29-12_02_09](https://github.com/omal-harsha/coding-test/assets/69068196/2609be52-335f-4643-aa61-231fa75f6cd5)
+![WhatsApp Image 2024-01-29 at 12 03 54_b8b2ff03](https://github.com/omal-harsha/coding-test/assets/69068196/2e061c7c-2610-43d1-b136-1ed6b89fdb1d)
