@@ -90,12 +90,15 @@ const Filter = ({ click, handle }) => {
       {/* mobile screen */}
 
       <div
-        className={`space-y-5  bg-BGgray py-8 mt-16 px-5 w-full max-w-[270px] allfilter z-50 ${
+        className={`space-y-5  bg-gray-200 py-8 mt-[356px] px-5 w-full max-w-[270px] allfilter z-50 ${
           handle ? "panel-closed " : " panel-open"
         } md:hidden`}
       >
         <div className=" ">
-          <div className="flex float-end -mt-6 -mr-3" onClick={click}>
+          <div
+            className="flex float-end -mt-6 -mr-3 text-gray-500"
+            onClick={click}
+          >
             <UilTimesSquare />
           </div>
           <div className="flex justify-between">

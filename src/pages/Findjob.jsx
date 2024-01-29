@@ -20,7 +20,7 @@ const Findjob = () => {
       </div>
       <div className="flex">
         <div className="">
-          <Filter handle={handle} />
+          <Filter handle={handle} click={hadleClick} />
         </div>
         <div className="mt-7">
           <Jobs />
