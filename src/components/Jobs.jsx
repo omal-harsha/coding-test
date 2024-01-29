@@ -6,6 +6,7 @@ const Jobs = () => {
   return (
     <div>
       <div className="flex flex-wrap justify-center gap-3 items-start">
+        {/* job detail card */}
         {JobsData.map((job) => (
           <div className="bg-white rounded-xl p-8 max-w-[320px] font-poppins">
             <div>

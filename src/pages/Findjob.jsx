@@ -6,6 +6,7 @@ import { UilFilter } from "@iconscout/react-unicons";
 const Findjob = () => {
   const [handle, setHandle] = useState(false);
 
+  //filter toggle function
   const hadleClick = () => {
     console.log("test");
     setHandle(!handle);
@@ -18,6 +19,8 @@ const Findjob = () => {
         <h1 onClick={hadleClick}>Recommended jobs</h1>
         <UilFilter className="text-gray-500 md:hidden" onClick={hadleClick} />
       </div>
+
+      {/* filter section and job cards display */}
       <div className="flex">
         <div className="">
           <Filter handle={handle} click={hadleClick} />

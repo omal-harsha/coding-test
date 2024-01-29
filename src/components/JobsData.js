@@ -1,3 +1,4 @@
+// dummy job details
 export const JobsData = [
   {
     id: 1,

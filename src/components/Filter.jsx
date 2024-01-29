@@ -3,21 +3,20 @@ import Slider from "react-slider";
 import "../App.css";
 import { UilTimesSquare } from "@iconscout/react-unicons";
 
+//salary range
 const MIN = 50;
 const MAX = 180;
 
 const Filter = ({ click, handle }) => {
   const [values, setValues] = useState([MIN, MAX]);
-  const [filter, setFilter] = useState(false);
-
-  console.log("values: ", handle);
 
   return (
     <div className="font-poppins text-sm">
       <div
         className={`space-y-5  bg-BGgray py-8  w-full max-w-[230px] hidden md:flex flex-col mr-7`}
       >
-        <div className=" ">
+        {/* lapscreen filter section */}
+        <div>
           <div className="flex justify-between">
             <h1 className=" font-semibold mb-4 ">Job Type</h1>
             <h1 className="text-red-600 font-semibold">Clear all</h1>
@@ -87,7 +86,7 @@ const Filter = ({ click, handle }) => {
         </div>
       </div>
 
-      {/* mobile screen */}
+      {/* mobile screen filter*/}
 
       <div
         className={`space-y-5  bg-gray-200 py-8 mt-[320px] px-5 w-full max-w-[270px] allfilter z-50 ${

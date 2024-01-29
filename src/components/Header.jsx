@@ -5,7 +5,7 @@ import Dropdown from "./Dropdown";
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  // on off mobile nav bar
+  // on off mobile dropdown
   const togleHandle = () => {
     setToggleMenu(!toggleMenu);
   };
@@ -14,6 +14,7 @@ const Header = () => {
     <div>
       <div className=" justify-between flex bg-BGdark  h-16 items-center px-10">
         <div>
+          {/* company logo */}
           <img
             className="w-16"
             src="https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/codetest%2FCompanyLogo.png?alt=media&token=a10c5382-fa45-407f-8c0b-e8f03a43c186"
@@ -34,6 +35,7 @@ const Header = () => {
             About us
           </h1>
         </div>
+        {/* user's detail section */}
         <div className="flex items-center space-x-2">
           <h1 className="text-gray-200 font-poppins text-sm hidden md:flex">
             Fintan Cabrera
@@ -48,6 +50,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      {/* mobile drop down component */}
       {toggleMenu && <Dropdown togleHandle={togleHandle} />}
     </div>
   );

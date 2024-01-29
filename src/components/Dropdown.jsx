@@ -7,6 +7,8 @@ const Dropdown = ({ togleHandle }) => {
       <div className="flex justify-end mt-2" onClick={togleHandle}>
         <UilMultiply className="text-2xl w-10 h-10" />
       </div>
+
+      {/* drop down menu */}
       <div className=" text-4xl text-center mt-10 justify-center space-y-5">
         <p className="py-3 hover:cursor-pointer" onClick={togleHandle}>
           Find jobs
