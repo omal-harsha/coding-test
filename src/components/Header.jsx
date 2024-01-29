@@ -1,4 +1,5 @@
 import React from "react";
+import { UilBars } from "@iconscout/react-unicons";
 
 const header = () => {
   return (
@@ -25,12 +26,17 @@ const header = () => {
         </h1>
       </div>
       <div className="flex items-center space-x-2">
-        <h1 className="text-gray-200 font-poppins text-sm">Fintan Cabrera</h1>
+        <h1 className="text-gray-200 font-poppins text-sm hidden md:flex">
+          Fintan Cabrera
+        </h1>
         <img
           className="w-8 h-8 object-cover rounded-full"
           src="https://firebasestorage.googleapis.com/v0/b/blogsite-33dcd.appspot.com/o/codetest%2FprofilePic.jpg?alt=media&token=91b87502-98f1-4ecf-a27d-cdb4376c1ca5"
           alt="Profile"
         />
+        <div className="md:hidden text-white pl-3">
+          <UilBars />
+        </div>
       </div>
     </div>
   );
