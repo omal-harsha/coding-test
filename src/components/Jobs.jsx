@@ -3,6 +3,15 @@ import { UilHeart, UilClockThree } from "@iconscout/react-unicons";
 import { JobsData } from "./JobsData";
 
 const Jobs = () => {
+  // shorten the descrption
+  const truncateDescription = (description, count) => {
+    const MAX_CHR_LENGTH = count;
+    if (description.length > MAX_CHR_LENGTH) {
+      return `${description.slice(0, MAX_CHR_LENGTH)}...`;
+    }
+    return description;
+  };
+
   return (
     <div>
       <div className="flex flex-wrap justify-center gap-3 items-start">
@@ -47,7 +56,7 @@ const Jobs = () => {
               </div>
               <div className="mt-5">
                 <p className="text-xs text-gray-500 font-semibold">
-                  {job.description}
+                  {truncateDescription(job.description, 70)}
                 </p>
               </div>
               <hr className="my-4" />
