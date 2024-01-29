@@ -3,7 +3,7 @@ import { UilSearch, UilMap } from "@iconscout/react-unicons";
 
 const Hero = () => {
   return (
-    <div className="relative px-5 sm:px-10 bg-BGdark py-6 ">
+    <div className=" px-5 sm:px-10 bg-BGdark py-6 ">
       <div>
         <div className="flex">
           <h1 className="font-poppins text-3xl flex-1 text-white text-center sm:text-left">
