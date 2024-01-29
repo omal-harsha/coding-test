@@ -26,7 +26,7 @@ const Hero = () => {
           <input
             type="text"
             className="w-full h-12 focus:outline-none pr-3"
-            placeholder="Job title or keyword?"
+            placeholder="Job title or keyword"
           />
           <h1 className="text-gray-300 text-3xl font-thin mr-5">|</h1>
 
@@ -51,7 +51,7 @@ const Hero = () => {
           <input
             type="text"
             className="w-full h-10 md:h-12 focus:outline-none md:pr-3"
-            placeholder="Job title or keyword?"
+            placeholder="Job title or keyword"
           />
           <h1 className="text-gray-300 text-3xl font-thin mr-5">|</h1>
 

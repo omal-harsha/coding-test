@@ -27,7 +27,7 @@ const Jobs = () => {
                 </div>
                 <UilHeart className="text-gray-500" />
               </div>
-              <div className="flex text-xs font-semibold mt-3 space-x-2 sm:space-x-3">
+              <div className="flex text-xs font-semibold mt-3 space-x-2">
                 {job.tags.experience && (
                   <p className="text-[#521191] bg-[#f1e3ff] rounded-md px-2 py-1">
                     {job.tags.experience}

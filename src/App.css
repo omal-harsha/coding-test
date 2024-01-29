@@ -57,3 +57,22 @@
 
   margin: auto;
 }
+
+.allfilter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.panel {
+  transition: transform 0.5s ease-in-out;
+}
+
+.panel-open {
+  transform: translateX(-100%);
+}
+
+.panel-closed {
+  transform: translateX(0%);
+}
