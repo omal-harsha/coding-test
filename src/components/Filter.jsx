@@ -90,7 +90,7 @@ const Filter = ({ click, handle }) => {
       {/* mobile screen */}
 
       <div
-        className={`space-y-5  bg-gray-200 py-8 mt-[356px] px-5 w-full max-w-[270px] allfilter z-50 ${
+        className={`space-y-5  bg-gray-200 py-8 mt-[320px] px-5 w-full max-w-[270px] allfilter z-50 ${
           handle ? "panel-closed " : " panel-open"
         } md:hidden`}
       >
